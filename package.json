@@ -1,0 +1,13 @@
+{
+  "name": "vanilla-spa",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "vite": "^2.4.4"
+  }
+}
