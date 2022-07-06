@@ -1,4 +1,3 @@
-import config from "../../config";
 class Status extends HTMLElement {
     constructor() {
         super()
