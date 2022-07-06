@@ -1,8 +1,10 @@
 import home from "./views/home.js";
-
+import './components/status.js'
+import './components/navbar.js'
 const routes = {
     "/": { title: "Home", render: home },
 };
+
 
 function router() {
     let view = routes[location.pathname];
@@ -28,3 +30,11 @@ window.addEventListener("click", e => {
 // Update router
 window.addEventListener("popstate", router);
 window.addEventListener("DOMContentLoaded", router);
+navbar()
+
+
+function navbar() {
+    let navbar = document.createElement("div", { is: "atlas-navbar"});
+    navbar.id = "main"
+    document.getElementById("navbar").appendChild(navbar)
+}

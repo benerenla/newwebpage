@@ -1,5 +1,5 @@
 :root {
-	--background-color: #181818;
+	--background-color: #000000;
 	--white: #fff;
 	--text-color: #525252;
 
@@ -29,28 +29,28 @@ nav {
 	margin-left: 20rem;
 	padding-top: 10px;
 }
-nav .main {
+#main {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 12px;
 }
-nav .main a {
+#main a {
 	margin-left: 4px;
 	text-decoration: none;
 	font-size: 17px;
 	color: var(--navbar-text-color);
 	transition: 1s;
 }
-nav .main a:hover {
+#main a:hover {
 	color: #a8a29e;
 }
 
-.main img {
+#main img {
 	width: 60px;
-	border-radius: 20px;
+	border-radius: 10px;
 	transition: 1s;
 }
-.main img:hover {
+#main img:hover {
 	transform: translateY(120);
 }
 .status {
@@ -58,7 +58,6 @@ nav .main a:hover {
 	height: 70px;
 	border-radius: 8px;
 	display: flex;
-	margin-top: 20px;
 }
 .status .details h1 {
 	font-size: 16px;
